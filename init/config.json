@@ -1,0 +1,13 @@
+{
+  "run_level":"debug",
+  "logging_level":"debug",
+  "jwt_secret":"secret",
+  "server_address":"0.0.0.0",
+  "server_port":"5000",
+  "database":"database",
+  "database_user":"user",
+  "database_password":"password",
+  "database_address":"127.0.0.1",
+  "database_port":"3306",
+  "api_key":"76043d9056a2f41ac5aa329883b1968be2b5088d7b443b89f6e439a9667fb558",
+}

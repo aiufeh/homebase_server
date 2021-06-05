@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  db:
+    image: mariadb
+    environment:
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=database
+    ports:
+      - "0.0.0.0:3306:3306"
+    volumes:
+     - ./db-data/database:/var/lib/mysql
+    networks:
+      - back
+
+networks:
+  back:
+     driver: bridge
